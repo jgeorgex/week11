@@ -1,7 +1,11 @@
 class Shop
 
+  def initialize
+  @price_list = { "A" => 50 }
+  end
+
   def checkout(items)
-    50
+    @price_list[items]
   end
 
 end
