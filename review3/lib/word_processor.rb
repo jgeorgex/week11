@@ -1,7 +1,7 @@
 class Word_Processor
 
 def spell_checker(words)
-  "A"
+  words
 end
 
 end
