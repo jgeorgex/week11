@@ -7,4 +7,9 @@ describe '#checkout' do
   expect(shop.checkout('A')).to eq(50)
   end
 
+  it 'returns a total of 100 when basket contains AA' do
+  shop = Shop.new
+  expect(shop.checkout('AA')).to eq(100)
+  end
+
 end
