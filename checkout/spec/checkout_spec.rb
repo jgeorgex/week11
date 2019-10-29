@@ -22,6 +22,11 @@ describe '#checkout' do
   expect(shop.checkout('C')).to eq(20)
   end
 
+  it 'returns a total of 15 when basket contains D' do
+  shop = Shop.new
+  expect(shop.checkout('D')).to eq(15)
+  end
+
 
 
 end
