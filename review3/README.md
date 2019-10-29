@@ -26,10 +26,10 @@ Requirements to deliver
 
 Approach
 
-Create word processor class
-create spell checker method with class
-pass in string to method
-hard code correct solution for basic correct string
+~Create word processor class
+~create spell checker method with class
+~pass in string to method
+~hard code correct solution for basic correct string
 add functionality to spell checker method to highlight incorrectly spelt word (hard coded)
 refactor to automatically pick out incorrect word from string
 refactor by adding dictionary to method which should not break any tests
