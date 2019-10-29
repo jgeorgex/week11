@@ -41,6 +41,9 @@ Approach:
 TDD Plan
 
 shop.checkout('A') # => 50
+shop.checkout('B') # => 30
+shop.checkout('C') # => 20
+shop.checkout('D') # => 15
 shop.checkout('AA') # => 100
 shop.checkout('AB') # => 80
 shop.checkout('ABC') # => 100
@@ -59,3 +62,4 @@ shop.checkout('AA') # => 100
 shop.checkout('ABCD') # => 115
 shop.checkout('AAA') # => 130
 shop.checkout('AAAAAA') # => 260
+shop.checkout('BBBB') # => 90
